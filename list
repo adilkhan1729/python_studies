@@ -1,3 +1,0 @@
-states_of_america=[" delaware","pennsylvania"]
-states_of_america.append("adil land in ohia ")
-print(states_of_america)
