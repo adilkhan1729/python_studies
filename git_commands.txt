@@ -1,0 +1,4 @@
+git status
+git add .
+git commit           # Press i to write and esc+wq! to save
+git push
