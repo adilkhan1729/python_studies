@@ -1,0 +1,23 @@
+bill=0
+print("welcome to the pizza shop")
+size=(input("what size do you want we have small medium or large "))
+perperoni=input("do you want to add perperoni yes or no ")
+extra_cheese=(input("do you want extra cheese yes or no "))
+if extra_cheese=="yes":
+    bill+=3
+if perperoni=="yes":
+    bill+=2        
+    
+if size=="small":
+    bill+=3
+    print(f"your bill is {bill}")
+   
+                  
+elif size=="medium":
+    bill+=5   
+    print(f"your bill is {bill }")
+elif size=="large":
+    bill+=7
+    print(f"your bill is {bill }")
+else:
+    print("sorry we don;t have that size or we don't know what you are talking about")   

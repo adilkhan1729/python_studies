@@ -1,0 +1,18 @@
+name=input("enter your name")
+mark1=float(input(("enter your marks")))
+mark2=float(input(("enter your marks")))
+mark3=float(input(("enter your marks")))
+mark4=int(input(("enter your marks")))
+mark5=float(input(("enter your marks")))
+marks=mark1+mark2+mark3+mark4+mark5
+total_marks=marks/5
+if total_marks>=90 and total_marks<=100:
+    print("comment: A+ your son/daughter is doing very well at school.")
+elif  total_marks>=70 and total_marks<=89:
+    print("comment: B+ your son/daughter is strugguling a little bit but good still.")
+elif  total_marks>=60 and total_marks<=69:
+    print("comment: C+ your son/daughter sorry doing bad with all her curiculums sorry.")
+elif  total_marks>=0 and total_marks<=59:
+    print("comment: F- your son/daughter is doing really bad keep these grades like this and i don't think they can go to this school sorry to say that.")    
+else:
+    pass    

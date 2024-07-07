@@ -1,0 +1,36 @@
+your_name = input("Please enter your name ")
+love_name = input("Please enter your love name ")
+total_name =  your_name + love_name
+# print(total_name)
+
+count_t = 0
+count_r = 0
+count_u = 0
+count_e = 0
+count_l = 0
+count_o = 0
+count_v = 0
+
+for i in total_name:
+    if i == "t":
+        count_t += 1
+    elif i == "r":
+        count_r += 1
+    elif i == "u":
+        count_u += 1
+    elif i== "e":
+        count_e += 1
+    elif i== "l":
+        count_l += 1
+    elif i== "o":
+        count_o += 1
+    elif i== "v":
+        count_v += 1
+
+
+count_true = count_t + count_r + count_u + count_e
+count_love = count_l + count_o + count_v + count_e
+
+new_percentage = count_true*10 + count_love
+print(f"Compatibility percentage is {new_percentage}")
+

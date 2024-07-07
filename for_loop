@@ -1,0 +1,4 @@
+shibby="i will compleate my homework"
+
+for i in range(1,101):
+    print(shibby)
