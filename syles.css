@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    color: rgb(83, 83, 160);
+    margin: 0;
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.content img {
+    margin-right: 20px;
+    width: 150px;
+    height: auto;
+    flex: auto;
+}
+
+.main-text {
+    max-width: 600px;
+    flex:auto;
+}
+
+h1{
+    color: rgb(63, 63, 118);
+    text-align: right;
+}
